@@ -1,16 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Sacramento&family=Yellowtail&display=swap') footer {
-    body {
-        background-color: bisque;
-    }
-    footer {
-        background-color: black;
-        color: white;
-    }
-    footer {
-        background-color: aqua;
-        color:black
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 2rem;
-    }
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+.alto-contraste #tropicalia {
+    background: none;
+}
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+<section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+        <h2 class="text-center pt-5">Galeria</h2>
+        <div class="container p-3 mt-3 fundo-galeria">
+
+            <!-- Código omitido --> 
+
+         </div>
+</section>
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+.alto-contraste #tropicalia {
+    background: none;
+}
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+<section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+        <h2 class="text-center pt-5">Galeria</h2>
+        <div class="container p-3 mt-3 fundo-galeria">
+
+            <!-- Código omitido --> 
+
+         </div>
+</section>
